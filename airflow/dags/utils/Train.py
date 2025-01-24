@@ -26,6 +26,7 @@ from torch.utils.data import DataLoader, Dataset
 
 import mlflow
 import mlflow.pytorch
+from mlflow.tracking import MlflowClient
 
 
 class TimeSeriesDataset(Dataset):
@@ -89,7 +90,7 @@ class GRUWithAttention(nn.Module):
         return out #, attention_weights  # Attention 가중치도 반환 (시각화 가능)
 
 
-def run_train(use_attention=True, lr=0.01, num_epochs=10, batch_size=32, pred_days=1, ti=None):
+def run_train(use_attention=True, lr=0.01, num_epochs=1, batch_size=32, pred_days=1, ti=None):
     #불러오기
     X_train = np.load("data/X_train.npy")
     y_train = np.load("data/y_train.npy")
@@ -137,16 +138,14 @@ def run_train(use_attention=True, lr=0.01, num_epochs=10, batch_size=32, pred_da
         best_model_path = f"gru_model_{today}.pth" #f"train/gru_model_{today}.pth"
 
 
-
+    if mlflow.active_run():
+        mlflow.end_run()
     
-    #Xcom에서 run_id / experiment_id 가져오기   
-    run_id = ti.xcom_pull(key='run_id')
-    experiment_id = ti.xcom_pull(key='experiment_id')
 
-    mlflow.set_experiment(experiment_id=experiment_id)
-    
+    mlflow.set_experiment("coin_experiment")
+
     # 모델 및 메타데이터 저장
-    with mlflow.start_run(run_id=run_id):
+    with mlflow.start_run(run_name="Train Model"):
         mlflow.log_param("input_dim", params['input_dim'])
         mlflow.log_param("hidden_dim", params['hidden_dim'])
         mlflow.log_param("output_dim", params['output_dim'])
@@ -199,7 +198,12 @@ def run_train(use_attention=True, lr=0.01, num_epochs=10, batch_size=32, pred_da
                 mlflow.log_metric("best_epoch", best_epoch)
                 
                 # 모델 저장
-                mlflow.pytorch.log_model(model, best_model_path) 
+                client = MlflowClient()
+                try:
+                    client.delete_registered_model(name="recent_model")
+                except:
+                    pass
+                mlflow.pytorch.log_model(model, best_model_path, registered_model_name='recent_model') #best_model_path.split('.')[0]
                 print(f"Epoch {epoch+1}: Best Model Saved with Train Loss: {train_loss:.4f}")
         
             print(f"Epoch {epoch+1}/{num_epochs}, Train Loss: {train_loss:.4f}") #, Validation Loss: {val_loss:.4f}
@@ -208,6 +212,12 @@ def run_train(use_attention=True, lr=0.01, num_epochs=10, batch_size=32, pred_da
 
 
 
+        
+
+
 if __name__=='__main__':
     run_train()
+
+
+
 

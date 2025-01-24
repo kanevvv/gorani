@@ -1,0 +1,6 @@
+artifact_location: file:///home/harry/airflow/dags/outputs/mlruns/187697973187583767
+creation_time: 1737648026882
+experiment_id: '187697973187583767'
+last_update_time: 1737648026882
+lifecycle_stage: active
+name: coin_experiment

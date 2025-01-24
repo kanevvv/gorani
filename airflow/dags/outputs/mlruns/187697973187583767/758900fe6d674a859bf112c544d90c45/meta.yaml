@@ -1,0 +1,15 @@
+artifact_uri: file:///home/harry/airflow/dags/outputs/mlruns/187697973187583767/758900fe6d674a859bf112c544d90c45/artifacts
+end_time: 1737657215247
+entry_point_name: ''
+experiment_id: '187697973187583767'
+lifecycle_stage: active
+run_id: 758900fe6d674a859bf112c544d90c45
+run_name: Train Model
+run_uuid: 758900fe6d674a859bf112c544d90c45
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737657109038
+status: 3
+tags: []
+user_id: harry

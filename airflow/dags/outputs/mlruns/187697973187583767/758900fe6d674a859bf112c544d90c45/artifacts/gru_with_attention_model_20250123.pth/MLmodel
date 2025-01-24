@@ -1,0 +1,21 @@
+artifact_path: gru_with_attention_model_20250124.pth
+flavors:
+  python_function:
+    config:
+      device: null
+    data: data
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.pytorch
+    pickle_module_name: mlflow.pytorch.pickle_module
+    python_version: 3.10.12
+  pytorch:
+    code: null
+    model_data: data
+    pytorch_version: 2.5.1+cu124
+mlflow_version: 2.19.0
+model_size_bytes: 166574
+model_uuid: 218f9beab39e4dce980c98a660f82e7e
+run_id: 758900fe6d674a859bf112c544d90c45
+utc_time_created: '2025-01-23 18:33:30.680669'

@@ -1,0 +1,504 @@
+[2025-01-24T09:01:32.337+0900] {processor.py:186} INFO - Started process (PID=12545) to work on /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T09:01:32.337+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py for tasks to queue
+[2025-01-24T09:01:32.338+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:01:32.338+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T09:01:34.782+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:01:34.777+0900] {dagbag.py:387} ERROR - Failed to import: /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+Traceback (most recent call last):
+  File "/home/harry/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py", line 124, in <module>
+    python_callable=run_prediction,  # 호출할 함수
+NameError: name 'run_prediction' is not defined
+[2025-01-24T09:01:34.787+0900] {processor.py:927} WARNING - No viable dags retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T09:01:34.800+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py took 2.468 seconds
+[2025-01-24T09:04:07.991+0900] {processor.py:186} INFO - Started process (PID=12977) to work on /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T09:04:07.999+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py for tasks to queue
+[2025-01-24T09:04:08.000+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:04:07.999+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T09:04:10.638+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:04:10.634+0900] {dagbag.py:387} ERROR - Failed to import: /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+Traceback (most recent call last):
+  File "/home/harry/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py", line 124, in <module>
+    python_callable=run_prediction,  # 호출할 함수
+NameError: name 'run_prediction' is not defined
+[2025-01-24T09:04:10.642+0900] {processor.py:927} WARNING - No viable dags retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T09:04:10.653+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py took 2.666 seconds
+[2025-01-24T09:06:37.948+0900] {processor.py:186} INFO - Started process (PID=13407) to work on /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T09:06:37.955+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py for tasks to queue
+[2025-01-24T09:06:37.956+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:06:37.956+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T09:06:40.458+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:06:40.453+0900] {dagbag.py:387} ERROR - Failed to import: /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+Traceback (most recent call last):
+  File "/home/harry/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py", line 124, in <module>
+    python_callable=run_prediction,  # 호출할 함수
+NameError: name 'run_prediction' is not defined
+[2025-01-24T09:06:40.463+0900] {processor.py:927} WARNING - No viable dags retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T09:06:40.475+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py took 2.532 seconds
+[2025-01-24T09:09:12.823+0900] {processor.py:186} INFO - Started process (PID=13839) to work on /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T09:09:12.824+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py for tasks to queue
+[2025-01-24T09:09:12.825+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:09:12.825+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T09:09:15.400+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:09:15.394+0900] {dagbag.py:387} ERROR - Failed to import: /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+Traceback (most recent call last):
+  File "/home/harry/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py", line 124, in <module>
+    python_callable=run_prediction,  # 호출할 함수
+NameError: name 'run_prediction' is not defined
+[2025-01-24T09:09:15.407+0900] {processor.py:927} WARNING - No viable dags retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T09:09:15.419+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py took 2.600 seconds
+[2025-01-24T09:11:44.676+0900] {processor.py:186} INFO - Started process (PID=14270) to work on /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T09:11:44.683+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py for tasks to queue
+[2025-01-24T09:11:44.684+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:11:44.684+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T09:11:47.185+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:11:47.181+0900] {dagbag.py:387} ERROR - Failed to import: /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+Traceback (most recent call last):
+  File "/home/harry/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py", line 124, in <module>
+    python_callable=run_prediction,  # 호출할 함수
+NameError: name 'run_prediction' is not defined
+[2025-01-24T09:11:47.189+0900] {processor.py:927} WARNING - No viable dags retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T09:11:47.201+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py took 2.530 seconds
+[2025-01-24T09:14:19.330+0900] {processor.py:186} INFO - Started process (PID=14699) to work on /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T09:14:19.331+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py for tasks to queue
+[2025-01-24T09:14:19.332+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:14:19.332+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T09:14:21.792+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:14:21.788+0900] {dagbag.py:387} ERROR - Failed to import: /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+Traceback (most recent call last):
+  File "/home/harry/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py", line 124, in <module>
+    python_callable=run_prediction,  # 호출할 함수
+NameError: name 'run_prediction' is not defined
+[2025-01-24T09:14:21.797+0900] {processor.py:927} WARNING - No viable dags retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T09:14:21.809+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py took 2.484 seconds
+[2025-01-24T09:16:53.161+0900] {processor.py:186} INFO - Started process (PID=15128) to work on /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T09:16:53.168+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py for tasks to queue
+[2025-01-24T09:16:53.169+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:16:53.169+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T09:16:55.698+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:16:55.693+0900] {dagbag.py:387} ERROR - Failed to import: /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+Traceback (most recent call last):
+  File "/home/harry/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py", line 124, in <module>
+    python_callable=run_prediction,  # 호출할 함수
+NameError: name 'run_prediction' is not defined
+[2025-01-24T09:16:55.703+0900] {processor.py:927} WARNING - No viable dags retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T09:16:55.716+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py took 2.559 seconds
+[2025-01-24T09:19:29.014+0900] {processor.py:186} INFO - Started process (PID=15558) to work on /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T09:19:29.021+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py for tasks to queue
+[2025-01-24T09:19:29.022+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:19:29.022+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T09:19:31.461+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:19:31.455+0900] {dagbag.py:387} ERROR - Failed to import: /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+Traceback (most recent call last):
+  File "/home/harry/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py", line 124, in <module>
+    python_callable=run_prediction,  # 호출할 함수
+NameError: name 'run_prediction' is not defined
+[2025-01-24T09:19:31.466+0900] {processor.py:927} WARNING - No viable dags retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T09:19:31.478+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py took 2.468 seconds
+[2025-01-24T09:22:00.007+0900] {processor.py:186} INFO - Started process (PID=15988) to work on /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T09:22:00.014+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py for tasks to queue
+[2025-01-24T09:22:00.015+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:22:00.015+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T09:22:02.877+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:22:02.871+0900] {dagbag.py:387} ERROR - Failed to import: /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+Traceback (most recent call last):
+  File "/home/harry/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py", line 124, in <module>
+    python_callable=run_prediction,  # 호출할 함수
+NameError: name 'run_prediction' is not defined
+[2025-01-24T09:22:02.884+0900] {processor.py:927} WARNING - No viable dags retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T09:22:02.897+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py took 2.894 seconds
+[2025-01-24T09:24:37.440+0900] {processor.py:186} INFO - Started process (PID=16428) to work on /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T09:24:37.441+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py for tasks to queue
+[2025-01-24T09:24:37.442+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:24:37.442+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T09:24:40.042+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:24:40.036+0900] {dagbag.py:387} ERROR - Failed to import: /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+Traceback (most recent call last):
+  File "/home/harry/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py", line 124, in <module>
+    python_callable=run_prediction,  # 호출할 함수
+NameError: name 'run_prediction' is not defined
+[2025-01-24T09:24:40.048+0900] {processor.py:927} WARNING - No viable dags retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T09:24:40.059+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py took 2.623 seconds
+[2025-01-24T09:27:07.568+0900] {processor.py:186} INFO - Started process (PID=16857) to work on /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T09:27:07.569+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py for tasks to queue
+[2025-01-24T09:27:07.570+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:27:07.570+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T09:27:10.106+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:27:10.101+0900] {dagbag.py:387} ERROR - Failed to import: /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+Traceback (most recent call last):
+  File "/home/harry/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py", line 124, in <module>
+    python_callable=run_prediction,  # 호출할 함수
+NameError: name 'run_prediction' is not defined
+[2025-01-24T09:27:10.112+0900] {processor.py:927} WARNING - No viable dags retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T09:27:10.127+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py took 2.562 seconds
+[2025-01-24T09:29:30.902+0900] {processor.py:186} INFO - Started process (PID=17275) to work on /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T09:29:30.909+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py for tasks to queue
+[2025-01-24T09:29:30.910+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:29:30.910+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T09:29:33.538+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:29:33.532+0900] {dagbag.py:387} ERROR - Failed to import: /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+Traceback (most recent call last):
+  File "/home/harry/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py", line 124, in <module>
+    python_callable=run_prediction,  # 호출할 함수
+NameError: name 'run_prediction' is not defined
+[2025-01-24T09:29:33.543+0900] {processor.py:927} WARNING - No viable dags retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T09:29:33.556+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py took 2.658 seconds
+[2025-01-24T09:32:28.012+0900] {processor.py:186} INFO - Started process (PID=17728) to work on /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T09:32:28.020+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py for tasks to queue
+[2025-01-24T09:32:28.022+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:32:28.022+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T09:32:31.137+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:32:31.132+0900] {dagbag.py:387} ERROR - Failed to import: /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+Traceback (most recent call last):
+  File "/home/harry/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py", line 124, in <module>
+    python_callable=run_prediction,  # 호출할 함수
+NameError: name 'run_prediction' is not defined
+[2025-01-24T09:32:31.143+0900] {processor.py:927} WARNING - No viable dags retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T09:32:31.155+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py took 3.151 seconds
+[2025-01-24T09:35:25.131+0900] {processor.py:186} INFO - Started process (PID=18176) to work on /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T09:35:25.132+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py for tasks to queue
+[2025-01-24T09:35:25.134+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:35:25.134+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T09:35:28.026+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:35:28.020+0900] {dagbag.py:387} ERROR - Failed to import: /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+Traceback (most recent call last):
+  File "/home/harry/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py", line 124, in <module>
+    python_callable=run_prediction,  # 호출할 함수
+NameError: name 'run_prediction' is not defined
+[2025-01-24T09:35:28.033+0900] {processor.py:927} WARNING - No viable dags retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T09:35:28.046+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py took 2.921 seconds
+[2025-01-24T09:38:17.598+0900] {processor.py:186} INFO - Started process (PID=18600) to work on /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T09:38:17.605+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py for tasks to queue
+[2025-01-24T09:38:17.606+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:38:17.606+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T09:38:20.654+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:38:20.648+0900] {dagbag.py:387} ERROR - Failed to import: /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+Traceback (most recent call last):
+  File "/home/harry/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py", line 124, in <module>
+    python_callable=run_prediction,  # 호출할 함수
+NameError: name 'run_prediction' is not defined
+[2025-01-24T09:38:20.662+0900] {processor.py:927} WARNING - No viable dags retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T09:38:20.678+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py took 3.085 seconds
+[2025-01-24T09:41:15.980+0900] {processor.py:186} INFO - Started process (PID=19035) to work on /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T09:41:15.987+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py for tasks to queue
+[2025-01-24T09:41:15.989+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:41:15.989+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T09:41:18.860+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:41:18.854+0900] {dagbag.py:387} ERROR - Failed to import: /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+Traceback (most recent call last):
+  File "/home/harry/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py", line 124, in <module>
+    python_callable=run_prediction,  # 호출할 함수
+NameError: name 'run_prediction' is not defined
+[2025-01-24T09:41:18.868+0900] {processor.py:927} WARNING - No viable dags retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T09:41:18.883+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py took 2.909 seconds
+[2025-01-24T09:44:07.519+0900] {processor.py:186} INFO - Started process (PID=19459) to work on /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T09:44:07.520+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py for tasks to queue
+[2025-01-24T09:44:07.521+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:44:07.521+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T09:44:10.392+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:44:10.386+0900] {dagbag.py:387} ERROR - Failed to import: /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+Traceback (most recent call last):
+  File "/home/harry/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py", line 124, in <module>
+    python_callable=run_prediction,  # 호출할 함수
+NameError: name 'run_prediction' is not defined
+[2025-01-24T09:44:10.399+0900] {processor.py:927} WARNING - No viable dags retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T09:44:10.414+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py took 2.905 seconds
+[2025-01-24T09:46:56.081+0900] {processor.py:186} INFO - Started process (PID=19883) to work on /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T09:46:56.088+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py for tasks to queue
+[2025-01-24T09:46:56.090+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:46:56.089+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T09:46:58.993+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:46:58.986+0900] {dagbag.py:387} ERROR - Failed to import: /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+Traceback (most recent call last):
+  File "/home/harry/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py", line 124, in <module>
+    python_callable=run_prediction,  # 호출할 함수
+NameError: name 'run_prediction' is not defined
+[2025-01-24T09:46:59.000+0900] {processor.py:927} WARNING - No viable dags retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T09:46:59.015+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py took 2.941 seconds
+[2025-01-24T09:49:52.613+0900] {processor.py:186} INFO - Started process (PID=20317) to work on /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T09:49:52.621+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py for tasks to queue
+[2025-01-24T09:49:52.622+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:49:52.622+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T09:49:55.539+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:49:55.534+0900] {dagbag.py:387} ERROR - Failed to import: /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+Traceback (most recent call last):
+  File "/home/harry/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py", line 124, in <module>
+    python_callable=run_prediction,  # 호출할 함수
+NameError: name 'run_prediction' is not defined
+[2025-01-24T09:49:55.547+0900] {processor.py:927} WARNING - No viable dags retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T09:49:55.565+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py took 2.958 seconds
+[2025-01-24T09:52:52.332+0900] {processor.py:186} INFO - Started process (PID=20742) to work on /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T09:52:52.341+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py for tasks to queue
+[2025-01-24T09:52:52.342+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:52:52.342+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T09:52:55.352+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:52:55.346+0900] {dagbag.py:387} ERROR - Failed to import: /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+Traceback (most recent call last):
+  File "/home/harry/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py", line 124, in <module>
+    python_callable=run_prediction,  # 호출할 함수
+NameError: name 'run_prediction' is not defined
+[2025-01-24T09:52:55.362+0900] {processor.py:927} WARNING - No viable dags retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T09:52:55.376+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py took 3.051 seconds
+[2025-01-24T09:55:50.287+0900] {processor.py:186} INFO - Started process (PID=21176) to work on /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T09:55:50.295+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py for tasks to queue
+[2025-01-24T09:55:50.298+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:55:50.297+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T09:55:53.235+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:55:53.229+0900] {dagbag.py:387} ERROR - Failed to import: /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+Traceback (most recent call last):
+  File "/home/harry/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py", line 124, in <module>
+    python_callable=run_prediction,  # 호출할 함수
+NameError: name 'run_prediction' is not defined
+[2025-01-24T09:55:53.241+0900] {processor.py:927} WARNING - No viable dags retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T09:55:53.253+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py took 2.975 seconds
+[2025-01-24T09:58:51.167+0900] {processor.py:186} INFO - Started process (PID=21610) to work on /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T09:58:51.174+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py for tasks to queue
+[2025-01-24T09:58:51.176+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:58:51.175+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T09:58:54.274+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:58:54.268+0900] {dagbag.py:387} ERROR - Failed to import: /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+Traceback (most recent call last):
+  File "/home/harry/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py", line 124, in <module>
+    python_callable=run_prediction,  # 호출할 함수
+NameError: name 'run_prediction' is not defined
+[2025-01-24T09:58:54.279+0900] {processor.py:927} WARNING - No viable dags retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T09:58:54.293+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py took 3.134 seconds
+[2025-01-24T10:01:45.836+0900] {processor.py:186} INFO - Started process (PID=22035) to work on /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T10:01:45.844+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py for tasks to queue
+[2025-01-24T10:01:45.846+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:01:45.846+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T10:01:49.051+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:01:49.045+0900] {dagbag.py:387} ERROR - Failed to import: /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+Traceback (most recent call last):
+  File "/home/harry/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py", line 124, in <module>
+    python_callable=run_prediction,  # 호출할 함수
+NameError: name 'run_prediction' is not defined
+[2025-01-24T10:01:49.060+0900] {processor.py:927} WARNING - No viable dags retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T10:01:49.075+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py took 3.247 seconds
+[2025-01-24T10:04:46.313+0900] {processor.py:186} INFO - Started process (PID=22469) to work on /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T10:04:46.314+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py for tasks to queue
+[2025-01-24T10:04:46.315+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:04:46.315+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T10:04:49.384+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:04:49.379+0900] {dagbag.py:387} ERROR - Failed to import: /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+Traceback (most recent call last):
+  File "/home/harry/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py", line 124, in <module>
+    python_callable=run_prediction,  # 호출할 함수
+NameError: name 'run_prediction' is not defined
+[2025-01-24T10:04:49.390+0900] {processor.py:927} WARNING - No viable dags retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T10:04:49.404+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py took 3.098 seconds
+[2025-01-24T10:07:45.761+0900] {processor.py:186} INFO - Started process (PID=22903) to work on /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T10:07:45.769+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py for tasks to queue
+[2025-01-24T10:07:45.770+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:07:45.770+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T10:07:49.236+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:07:49.230+0900] {dagbag.py:387} ERROR - Failed to import: /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+Traceback (most recent call last):
+  File "/home/harry/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py", line 124, in <module>
+    python_callable=run_prediction,  # 호출할 함수
+NameError: name 'run_prediction' is not defined
+[2025-01-24T10:07:49.243+0900] {processor.py:927} WARNING - No viable dags retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T10:07:49.256+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py took 3.500 seconds
+[2025-01-24T10:10:47.995+0900] {processor.py:186} INFO - Started process (PID=23338) to work on /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T10:10:48.002+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py for tasks to queue
+[2025-01-24T10:10:48.003+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:10:48.003+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T10:10:51.042+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:10:51.036+0900] {dagbag.py:387} ERROR - Failed to import: /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+Traceback (most recent call last):
+  File "/home/harry/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py", line 124, in <module>
+    python_callable=run_prediction,  # 호출할 함수
+NameError: name 'run_prediction' is not defined
+[2025-01-24T10:10:51.048+0900] {processor.py:927} WARNING - No viable dags retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T10:10:51.062+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py took 3.074 seconds
+[2025-01-24T10:13:50.519+0900] {processor.py:186} INFO - Started process (PID=23773) to work on /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T10:13:50.527+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py for tasks to queue
+[2025-01-24T10:13:50.528+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:13:50.528+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T10:13:53.481+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:13:53.475+0900] {dagbag.py:387} ERROR - Failed to import: /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+Traceback (most recent call last):
+  File "/home/harry/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py", line 124, in <module>
+    python_callable=run_prediction,  # 호출할 함수
+NameError: name 'run_prediction' is not defined
+[2025-01-24T10:13:53.486+0900] {processor.py:927} WARNING - No viable dags retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T10:13:53.503+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py took 2.993 seconds
+[2025-01-24T10:16:47.794+0900] {processor.py:186} INFO - Started process (PID=24207) to work on /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T10:16:47.802+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py for tasks to queue
+[2025-01-24T10:16:47.803+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:16:47.803+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T10:16:50.723+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:16:50.717+0900] {dagbag.py:387} ERROR - Failed to import: /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+Traceback (most recent call last):
+  File "/home/harry/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py", line 124, in <module>
+    python_callable=run_prediction,  # 호출할 함수
+NameError: name 'run_prediction' is not defined
+[2025-01-24T10:16:50.728+0900] {processor.py:927} WARNING - No viable dags retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T10:16:50.741+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py took 2.953 seconds
+[2025-01-24T10:19:46.760+0900] {processor.py:186} INFO - Started process (PID=24641) to work on /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T10:19:46.767+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py for tasks to queue
+[2025-01-24T10:19:46.769+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:19:46.768+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T10:19:49.776+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:19:49.770+0900] {dagbag.py:387} ERROR - Failed to import: /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+Traceback (most recent call last):
+  File "/home/harry/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py", line 124, in <module>
+    python_callable=run_prediction,  # 호출할 함수
+NameError: name 'run_prediction' is not defined
+[2025-01-24T10:19:49.782+0900] {processor.py:927} WARNING - No viable dags retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T10:19:49.795+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py took 3.041 seconds
+[2025-01-24T10:22:41.782+0900] {processor.py:186} INFO - Started process (PID=25066) to work on /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T10:22:41.789+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py for tasks to queue
+[2025-01-24T10:22:41.791+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:22:41.790+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T10:22:44.665+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:22:44.659+0900] {dagbag.py:387} ERROR - Failed to import: /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+Traceback (most recent call last):
+  File "/home/harry/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py", line 124, in <module>
+    python_callable=run_prediction,  # 호출할 함수
+NameError: name 'run_prediction' is not defined
+[2025-01-24T10:22:44.674+0900] {processor.py:927} WARNING - No viable dags retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T10:22:44.688+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py took 2.913 seconds
+[2025-01-24T10:25:37.395+0900] {processor.py:186} INFO - Started process (PID=25490) to work on /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T10:25:37.402+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py for tasks to queue
+[2025-01-24T10:25:37.404+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:25:37.403+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T10:25:42.175+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:25:42.166+0900] {dagbag.py:387} ERROR - Failed to import: /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+Traceback (most recent call last):
+  File "/home/harry/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py", line 124, in <module>
+    python_callable=run_prediction,  # 호출할 함수
+NameError: name 'run_prediction' is not defined
+[2025-01-24T10:25:42.183+0900] {processor.py:927} WARNING - No viable dags retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T10:25:42.201+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py took 4.811 seconds
+[2025-01-24T10:28:31.389+0900] {processor.py:186} INFO - Started process (PID=25936) to work on /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T10:28:31.396+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py for tasks to queue
+[2025-01-24T10:28:31.397+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:28:31.397+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T10:28:33.926+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:28:33.921+0900] {dagbag.py:387} ERROR - Failed to import: /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+Traceback (most recent call last):
+  File "/home/harry/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py", line 124, in <module>
+    python_callable=run_prediction,  # 호출할 함수
+NameError: name 'run_prediction' is not defined
+[2025-01-24T10:28:33.931+0900] {processor.py:927} WARNING - No viable dags retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T10:28:33.943+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py took 2.558 seconds
+[2025-01-24T10:31:05.935+0900] {processor.py:186} INFO - Started process (PID=26356) to work on /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T10:31:05.942+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py for tasks to queue
+[2025-01-24T10:31:05.943+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:31:05.943+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T10:31:08.502+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:31:08.498+0900] {dagbag.py:387} ERROR - Failed to import: /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+Traceback (most recent call last):
+  File "/home/harry/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py", line 124, in <module>
+    python_callable=run_prediction,  # 호출할 함수
+NameError: name 'run_prediction' is not defined
+[2025-01-24T10:31:08.507+0900] {processor.py:927} WARNING - No viable dags retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T10:31:08.519+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py took 2.588 seconds
+[2025-01-24T10:33:40.835+0900] {processor.py:186} INFO - Started process (PID=26771) to work on /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T10:33:40.836+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py for tasks to queue
+[2025-01-24T10:33:40.837+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:33:40.836+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T10:33:43.410+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:33:43.405+0900] {dagbag.py:387} ERROR - Failed to import: /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+Traceback (most recent call last):
+  File "/home/harry/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py", line 124, in <module>
+    python_callable=run_prediction,  # 호출할 함수
+NameError: name 'run_prediction' is not defined
+[2025-01-24T10:33:43.415+0900] {processor.py:927} WARNING - No viable dags retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T10:33:43.428+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py took 2.597 seconds
+[2025-01-24T10:36:07.102+0900] {processor.py:186} INFO - Started process (PID=27195) to work on /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T10:36:07.109+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py for tasks to queue
+[2025-01-24T10:36:07.110+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:36:07.110+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T10:36:09.512+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:36:09.507+0900] {dagbag.py:387} ERROR - Failed to import: /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+Traceback (most recent call last):
+  File "/home/harry/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py", line 124, in <module>
+    python_callable=run_prediction,  # 호출할 함수
+NameError: name 'run_prediction' is not defined
+[2025-01-24T10:36:09.517+0900] {processor.py:927} WARNING - No viable dags retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T10:36:09.529+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py took 2.431 seconds
+[2025-01-24T10:38:52.382+0900] {processor.py:186} INFO - Started process (PID=27740) to work on /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T10:38:52.389+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py for tasks to queue
+[2025-01-24T10:38:52.390+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:38:52.390+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T10:38:55.162+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:38:55.156+0900] {dagbag.py:387} ERROR - Failed to import: /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+Traceback (most recent call last):
+  File "/home/harry/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py", line 124, in <module>
+    python_callable=run_prediction,  # 호출할 함수
+NameError: name 'run_prediction' is not defined
+[2025-01-24T10:38:55.167+0900] {processor.py:927} WARNING - No viable dags retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py
+[2025-01-24T10:38:55.179+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/my-checkpoint.py took 2.801 seconds

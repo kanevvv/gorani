@@ -154,8 +154,8 @@ def _table_to_parquet(table_name = 'coins', db_name='test.db', parquet_name='coi
 
 
 
-def run_dataloader_1y(coin_name='KRW-BTC', db_name='test.db', table_name='coins', get_coint_list=False, table_to_parquet=True) -> None:
-    if get_coint_list:
+def run_dataloader_1y(coin_name='KRW-BTC', db_name='test.db', table_name='coins', get_coin_list=False, table_to_parquet=True) -> None:
+    if get_coin_list:
         _get_coin_list()
     '''
     약 1년치 (366일) 적재

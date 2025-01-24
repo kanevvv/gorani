@@ -1,0 +1,196 @@
+[2025-01-23T10:05:50.232+0900] {processor.py:186} INFO - Started process (PID=8716) to work on /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py
+[2025-01-23T10:05:50.233+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py for tasks to queue
+[2025-01-23T10:05:50.234+0900] {logging_mixin.py:190} INFO - [2025-01-23T10:05:50.234+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py
+[2025-01-23T10:05:52.802+0900] {logging_mixin.py:190} INFO - [2025-01-23T10:05:52.797+0900] {dagbag.py:387} ERROR - Failed to import: /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py
+Traceback (most recent call last):
+  File "/home/harry/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py", line 124, in <module>
+    python_callable=run_prediction,  # 호출할 함수
+NameError: name 'run_prediction' is not defined
+[2025-01-23T10:05:52.806+0900] {processor.py:927} WARNING - No viable dags retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py
+[2025-01-23T10:05:52.818+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py took 2.590 seconds
+[2025-01-23T10:06:46.680+0900] {processor.py:186} INFO - Started process (PID=8888) to work on /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py
+[2025-01-23T10:06:46.681+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py for tasks to queue
+[2025-01-23T10:06:46.682+0900] {logging_mixin.py:190} INFO - [2025-01-23T10:06:46.681+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py
+[2025-01-23T10:06:49.303+0900] {logging_mixin.py:190} INFO - [2025-01-23T10:06:49.297+0900] {dagbag.py:387} ERROR - Failed to import: /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py
+Traceback (most recent call last):
+  File "/home/harry/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py", line 124, in <module>
+    python_callable=run_prediction,  # 호출할 함수
+NameError: name 'run_prediction' is not defined
+[2025-01-23T10:06:49.308+0900] {processor.py:927} WARNING - No viable dags retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py
+[2025-01-23T10:06:49.321+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py took 2.645 seconds
+[2025-01-23T10:07:44.558+0900] {processor.py:186} INFO - Started process (PID=9049) to work on /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py
+[2025-01-23T10:07:44.559+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py for tasks to queue
+[2025-01-23T10:07:44.560+0900] {logging_mixin.py:190} INFO - [2025-01-23T10:07:44.560+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py
+[2025-01-23T10:07:46.934+0900] {logging_mixin.py:190} INFO - [2025-01-23T10:07:46.933+0900] {dagbag.py:387} ERROR - Failed to import: /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py
+Traceback (most recent call last):
+  File "/home/harry/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py", line 87, in <module>
+    task1 >> branch >> task2 >> task4 >> task5 >> task5 >> task6 >> task7 >> task8
+NameError: name 'task1' is not defined. Did you mean: 'task4'?
+[2025-01-23T10:07:46.935+0900] {processor.py:927} WARNING - No viable dags retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py
+[2025-01-23T10:07:46.947+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py took 2.393 seconds
+[2025-01-23T10:08:45.793+0900] {processor.py:186} INFO - Started process (PID=9240) to work on /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py
+[2025-01-23T10:08:45.800+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py for tasks to queue
+[2025-01-23T10:08:45.801+0900] {logging_mixin.py:190} INFO - [2025-01-23T10:08:45.801+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py
+[2025-01-23T10:08:48.207+0900] {logging_mixin.py:190} INFO - [2025-01-23T10:08:48.206+0900] {dagbag.py:387} ERROR - Failed to import: /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py
+Traceback (most recent call last):
+  File "/home/harry/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py", line 87, in <module>
+    task1 >> branch >> task2 >> task4 >> task5 >> task5 >> task6 >> task7 >> task8
+NameError: name 'task1' is not defined. Did you mean: 'task4'?
+[2025-01-23T10:08:48.208+0900] {processor.py:927} WARNING - No viable dags retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py
+[2025-01-23T10:08:48.219+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py took 2.429 seconds
+[2025-01-23T10:09:47.847+0900] {processor.py:186} INFO - Started process (PID=9412) to work on /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py
+[2025-01-23T10:09:47.854+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py for tasks to queue
+[2025-01-23T10:09:47.855+0900] {logging_mixin.py:190} INFO - [2025-01-23T10:09:47.855+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py
+[2025-01-23T10:09:50.472+0900] {logging_mixin.py:190} INFO - [2025-01-23T10:09:50.471+0900] {dagbag.py:387} ERROR - Failed to import: /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py
+Traceback (most recent call last):
+  File "/home/harry/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py", line 87, in <module>
+    task1 >> branch >> task2 >> task4 >> task5 >> task5 >> task6 >> task7 >> task8
+NameError: name 'task1' is not defined. Did you mean: 'task4'?
+[2025-01-23T10:09:50.473+0900] {processor.py:927} WARNING - No viable dags retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py
+[2025-01-23T10:09:50.485+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py took 2.643 seconds
+[2025-01-23T10:10:48.983+0900] {processor.py:186} INFO - Started process (PID=9603) to work on /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py
+[2025-01-23T10:10:48.984+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py for tasks to queue
+[2025-01-23T10:10:48.985+0900] {logging_mixin.py:190} INFO - [2025-01-23T10:10:48.984+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py
+[2025-01-23T10:10:51.818+0900] {logging_mixin.py:190} INFO - [2025-01-23T10:10:51.817+0900] {dagbag.py:387} ERROR - Failed to import: /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py
+Traceback (most recent call last):
+  File "/home/harry/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py", line 87, in <module>
+    task1 >> branch >> task2 >> task4 >> task5 >> task5 >> task6 >> task7 >> task8
+NameError: name 'task1' is not defined. Did you mean: 'task4'?
+[2025-01-23T10:10:51.819+0900] {processor.py:927} WARNING - No viable dags retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py
+[2025-01-23T10:10:51.831+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py took 2.854 seconds
+[2025-01-23T10:12:05.120+0900] {processor.py:186} INFO - Started process (PID=9776) to work on /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py
+[2025-01-23T10:12:05.121+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py for tasks to queue
+[2025-01-23T10:12:05.122+0900] {logging_mixin.py:190} INFO - [2025-01-23T10:12:05.122+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py
+[2025-01-23T10:12:08.048+0900] {logging_mixin.py:190} INFO - [2025-01-23T10:12:08.047+0900] {dagbag.py:387} ERROR - Failed to import: /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py
+Traceback (most recent call last):
+  File "/home/harry/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py", line 87, in <module>
+    task1 >> branch >> task2 >> task4 >> task5 >> task5 >> task6 >> task7 >> task8
+NameError: name 'task1' is not defined. Did you mean: 'task4'?
+[2025-01-23T10:12:08.049+0900] {processor.py:927} WARNING - No viable dags retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py
+[2025-01-23T10:12:08.060+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py took 2.945 seconds
+[2025-01-23T10:13:14.198+0900] {processor.py:186} INFO - Started process (PID=9978) to work on /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py
+[2025-01-23T10:13:14.206+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py for tasks to queue
+[2025-01-23T10:13:14.207+0900] {logging_mixin.py:190} INFO - [2025-01-23T10:13:14.207+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py
+[2025-01-23T10:13:16.688+0900] {logging_mixin.py:190} INFO - [2025-01-23T10:13:16.687+0900] {dagbag.py:387} ERROR - Failed to import: /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py
+Traceback (most recent call last):
+  File "/home/harry/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py", line 87, in <module>
+    task1 >> branch >> task2 >> task4 >> task5 >> task5 >> task6 >> task7 >> task8
+NameError: name 'task1' is not defined. Did you mean: 'task4'?
+[2025-01-23T10:13:16.690+0900] {processor.py:927} WARNING - No viable dags retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py
+[2025-01-23T10:13:16.701+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py took 2.507 seconds
+[2025-01-23T10:14:21.896+0900] {processor.py:186} INFO - Started process (PID=10146) to work on /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py
+[2025-01-23T10:14:21.903+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py for tasks to queue
+[2025-01-23T10:14:21.905+0900] {logging_mixin.py:190} INFO - [2025-01-23T10:14:21.905+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py
+[2025-01-23T10:14:24.463+0900] {logging_mixin.py:190} INFO - [2025-01-23T10:14:24.462+0900] {dagbag.py:387} ERROR - Failed to import: /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py
+Traceback (most recent call last):
+  File "/home/harry/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py", line 87, in <module>
+    task1 >> branch >> task2 >> task4 >> task5 >> task5 >> task6 >> task7 >> task8
+NameError: name 'task1' is not defined. Did you mean: 'task4'?
+[2025-01-23T10:14:24.464+0900] {processor.py:927} WARNING - No viable dags retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py
+[2025-01-23T10:14:24.477+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py took 2.586 seconds
+[2025-01-23T10:15:29.067+0900] {processor.py:186} INFO - Started process (PID=10349) to work on /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py
+[2025-01-23T10:15:29.075+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py for tasks to queue
+[2025-01-23T10:15:29.076+0900] {logging_mixin.py:190} INFO - [2025-01-23T10:15:29.075+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py
+[2025-01-23T10:15:31.592+0900] {logging_mixin.py:190} INFO - [2025-01-23T10:15:31.591+0900] {dagbag.py:387} ERROR - Failed to import: /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py
+Traceback (most recent call last):
+  File "/home/harry/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py", line 87, in <module>
+    task1 >> branch >> task2 >> task4 >> task5 >> task5 >> task6 >> task7 >> task8
+NameError: name 'task1' is not defined. Did you mean: 'task4'?
+[2025-01-23T10:15:31.593+0900] {processor.py:927} WARNING - No viable dags retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py
+[2025-01-23T10:15:31.605+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py took 2.542 seconds
+[2025-01-23T10:16:38.013+0900] {processor.py:186} INFO - Started process (PID=10531) to work on /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py
+[2025-01-23T10:16:38.014+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py for tasks to queue
+[2025-01-23T10:16:38.015+0900] {logging_mixin.py:190} INFO - [2025-01-23T10:16:38.015+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py
+[2025-01-23T10:16:40.476+0900] {logging_mixin.py:190} INFO - [2025-01-23T10:16:40.474+0900] {dagbag.py:387} ERROR - Failed to import: /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py
+Traceback (most recent call last):
+  File "/home/harry/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py", line 87, in <module>
+    task1 >> branch >> task2 >> task4 >> task5 >> task5 >> task6 >> task7 >> task8
+NameError: name 'task1' is not defined. Did you mean: 'task4'?
+[2025-01-23T10:16:40.477+0900] {processor.py:927} WARNING - No viable dags retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py
+[2025-01-23T10:16:40.489+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py took 2.480 seconds
+[2025-01-23T10:17:45.549+0900] {processor.py:186} INFO - Started process (PID=10733) to work on /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py
+[2025-01-23T10:17:45.557+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py for tasks to queue
+[2025-01-23T10:17:45.558+0900] {logging_mixin.py:190} INFO - [2025-01-23T10:17:45.558+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py
+[2025-01-23T10:17:48.324+0900] {logging_mixin.py:190} INFO - [2025-01-23T10:17:48.323+0900] {dagbag.py:387} ERROR - Failed to import: /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py
+Traceback (most recent call last):
+  File "/home/harry/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py", line 87, in <module>
+    task1 >> branch >> task2 >> task4 >> task5 >> task5 >> task6 >> task7 >> task8
+NameError: name 'task1' is not defined. Did you mean: 'task4'?
+[2025-01-23T10:17:48.325+0900] {processor.py:927} WARNING - No viable dags retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py
+[2025-01-23T10:17:48.337+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py took 2.791 seconds
+[2025-01-23T10:18:49.017+0900] {processor.py:186} INFO - Started process (PID=10904) to work on /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py
+[2025-01-23T10:18:49.025+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py for tasks to queue
+[2025-01-23T10:18:49.026+0900] {logging_mixin.py:190} INFO - [2025-01-23T10:18:49.025+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py
+[2025-01-23T10:18:51.670+0900] {logging_mixin.py:190} INFO - [2025-01-23T10:18:51.669+0900] {dagbag.py:387} ERROR - Failed to import: /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py
+Traceback (most recent call last):
+  File "/home/harry/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py", line 87, in <module>
+    task1 >> branch >> task2 >> task4 >> task5 >> task5 >> task6 >> task7 >> task8
+NameError: name 'task1' is not defined. Did you mean: 'task4'?
+[2025-01-23T10:18:51.671+0900] {processor.py:927} WARNING - No viable dags retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py
+[2025-01-23T10:18:51.682+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py took 2.670 seconds
+[2025-01-23T10:19:53.520+0900] {processor.py:186} INFO - Started process (PID=11095) to work on /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py
+[2025-01-23T10:19:53.527+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py for tasks to queue
+[2025-01-23T10:19:53.528+0900] {logging_mixin.py:190} INFO - [2025-01-23T10:19:53.528+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py
+[2025-01-23T10:19:56.163+0900] {logging_mixin.py:190} INFO - [2025-01-23T10:19:56.162+0900] {dagbag.py:387} ERROR - Failed to import: /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py
+Traceback (most recent call last):
+  File "/home/harry/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py", line 87, in <module>
+    task1 >> branch >> task2 >> task4 >> task5 >> task5 >> task6 >> task7 >> task8
+NameError: name 'task1' is not defined. Did you mean: 'task4'?
+[2025-01-23T10:19:56.164+0900] {processor.py:927} WARNING - No viable dags retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py
+[2025-01-23T10:19:56.175+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/dag_inference-checkpoint.py took 2.659 seconds

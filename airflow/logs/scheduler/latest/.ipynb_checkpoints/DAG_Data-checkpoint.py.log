@@ -1,0 +1,511 @@
+[2025-01-24T09:01:07.179+0900] {processor.py:186} INFO - Started process (PID=12473) to work on /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:01:07.180+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py for tasks to queue
+[2025-01-24T09:01:07.181+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:01:07.180+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:01:09.732+0900] {processor.py:925} INFO - DAG(s) 'DAG_Data' retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:01:09.737+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:01:09.736+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-24T09:01:09.751+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:01:09.751+0900] {dag.py:4180} INFO - Setting next_dagrun for DAG_Data to 2025-01-23 16:00:00+00:00, run_after=2025-01-24 16:00:00+00:00
+[2025-01-24T09:01:09.767+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py took 2.592 seconds
+[2025-01-24T09:02:26.407+0900] {processor.py:186} INFO - Started process (PID=12691) to work on /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:02:26.414+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py for tasks to queue
+[2025-01-24T09:02:26.415+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:02:26.415+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:02:28.980+0900] {processor.py:925} INFO - DAG(s) 'DAG_Data' retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:02:29.034+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:02:29.034+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-24T09:02:29.045+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:02:29.044+0900] {dag.py:4180} INFO - Setting next_dagrun for DAG_Data to 2025-01-23 16:00:00+00:00, run_after=2025-01-24 16:00:00+00:00
+[2025-01-24T09:02:29.060+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py took 2.656 seconds
+[2025-01-24T09:03:41.531+0900] {processor.py:186} INFO - Started process (PID=12904) to work on /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:03:41.539+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py for tasks to queue
+[2025-01-24T09:03:41.539+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:03:41.539+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:03:44.096+0900] {processor.py:925} INFO - DAG(s) 'DAG_Data' retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:03:44.100+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:03:44.100+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-24T09:03:44.112+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:03:44.112+0900] {dag.py:4180} INFO - Setting next_dagrun for DAG_Data to 2025-01-23 16:00:00+00:00, run_after=2025-01-24 16:00:00+00:00
+[2025-01-24T09:03:44.126+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py took 2.598 seconds
+[2025-01-24T09:04:58.776+0900] {processor.py:186} INFO - Started process (PID=13121) to work on /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:04:58.777+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py for tasks to queue
+[2025-01-24T09:04:58.778+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:04:58.778+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:05:01.396+0900] {processor.py:925} INFO - DAG(s) 'DAG_Data' retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:05:01.460+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:05:01.460+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-24T09:05:01.471+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:05:01.471+0900] {dag.py:4180} INFO - Setting next_dagrun for DAG_Data to 2025-01-23 16:00:00+00:00, run_after=2025-01-24 16:00:00+00:00
+[2025-01-24T09:05:01.485+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py took 2.715 seconds
+[2025-01-24T09:06:16.544+0900] {processor.py:186} INFO - Started process (PID=13344) to work on /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:06:16.551+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py for tasks to queue
+[2025-01-24T09:06:16.552+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:06:16.552+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:06:19.160+0900] {processor.py:925} INFO - DAG(s) 'DAG_Data' retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:06:19.163+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:06:19.163+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-24T09:06:19.175+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:06:19.174+0900] {dag.py:4180} INFO - Setting next_dagrun for DAG_Data to 2025-01-23 16:00:00+00:00, run_after=2025-01-24 16:00:00+00:00
+[2025-01-24T09:06:19.188+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py took 2.648 seconds
+[2025-01-24T09:07:31.219+0900] {processor.py:186} INFO - Started process (PID=13554) to work on /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:07:31.221+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py for tasks to queue
+[2025-01-24T09:07:31.222+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:07:31.221+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:07:33.813+0900] {processor.py:925} INFO - DAG(s) 'DAG_Data' retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:07:33.872+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:07:33.872+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-24T09:07:33.883+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:07:33.883+0900] {dag.py:4180} INFO - Setting next_dagrun for DAG_Data to 2025-01-23 16:00:00+00:00, run_after=2025-01-24 16:00:00+00:00
+[2025-01-24T09:07:33.901+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py took 2.686 seconds
+[2025-01-24T09:08:47.228+0900] {processor.py:186} INFO - Started process (PID=13767) to work on /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:08:47.235+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py for tasks to queue
+[2025-01-24T09:08:47.236+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:08:47.236+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:08:49.827+0900] {processor.py:925} INFO - DAG(s) 'DAG_Data' retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:08:49.832+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:08:49.831+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-24T09:08:49.845+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:08:49.845+0900] {dag.py:4180} INFO - Setting next_dagrun for DAG_Data to 2025-01-23 16:00:00+00:00, run_after=2025-01-24 16:00:00+00:00
+[2025-01-24T09:08:49.861+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py took 2.637 seconds
+[2025-01-24T09:10:05.427+0900] {processor.py:186} INFO - Started process (PID=13984) to work on /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:10:05.434+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py for tasks to queue
+[2025-01-24T09:10:05.435+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:10:05.435+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:10:08.017+0900] {processor.py:925} INFO - DAG(s) 'DAG_Data' retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:10:08.070+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:10:08.070+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-24T09:10:08.081+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:10:08.081+0900] {dag.py:4180} INFO - Setting next_dagrun for DAG_Data to 2025-01-23 16:00:00+00:00, run_after=2025-01-24 16:00:00+00:00
+[2025-01-24T09:10:08.096+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py took 2.673 seconds
+[2025-01-24T09:11:19.515+0900] {processor.py:186} INFO - Started process (PID=14197) to work on /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:11:19.522+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py for tasks to queue
+[2025-01-24T09:11:19.523+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:11:19.523+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:11:22.010+0900] {processor.py:925} INFO - DAG(s) 'DAG_Data' retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:11:22.016+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:11:22.015+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-24T09:11:22.029+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:11:22.029+0900] {dag.py:4180} INFO - Setting next_dagrun for DAG_Data to 2025-01-23 16:00:00+00:00, run_after=2025-01-24 16:00:00+00:00
+[2025-01-24T09:11:22.042+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py took 2.531 seconds
+[2025-01-24T09:12:38.943+0900] {processor.py:186} INFO - Started process (PID=14414) to work on /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:12:38.950+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py for tasks to queue
+[2025-01-24T09:12:38.951+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:12:38.951+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:12:41.592+0900] {processor.py:925} INFO - DAG(s) 'DAG_Data' retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:12:41.646+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:12:41.646+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-24T09:12:41.656+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:12:41.656+0900] {dag.py:4180} INFO - Setting next_dagrun for DAG_Data to 2025-01-23 16:00:00+00:00, run_after=2025-01-24 16:00:00+00:00
+[2025-01-24T09:12:41.672+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py took 2.733 seconds
+[2025-01-24T09:13:54.186+0900] {processor.py:186} INFO - Started process (PID=14627) to work on /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:13:54.187+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py for tasks to queue
+[2025-01-24T09:13:54.188+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:13:54.188+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:13:56.730+0900] {processor.py:925} INFO - DAG(s) 'DAG_Data' retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:13:56.735+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:13:56.735+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-24T09:13:56.747+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:13:56.747+0900] {dag.py:4180} INFO - Setting next_dagrun for DAG_Data to 2025-01-23 16:00:00+00:00, run_after=2025-01-24 16:00:00+00:00
+[2025-01-24T09:13:56.761+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py took 2.578 seconds
+[2025-01-24T09:15:10.961+0900] {processor.py:186} INFO - Started process (PID=14843) to work on /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:15:10.969+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py for tasks to queue
+[2025-01-24T09:15:10.970+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:15:10.969+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:15:13.491+0900] {processor.py:925} INFO - DAG(s) 'DAG_Data' retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:15:13.550+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:15:13.549+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-24T09:15:13.562+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:15:13.562+0900] {dag.py:4180} INFO - Setting next_dagrun for DAG_Data to 2025-01-23 16:00:00+00:00, run_after=2025-01-24 16:00:00+00:00
+[2025-01-24T09:15:13.578+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py took 2.622 seconds
+[2025-01-24T09:16:28.595+0900] {processor.py:186} INFO - Started process (PID=15056) to work on /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:16:28.602+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py for tasks to queue
+[2025-01-24T09:16:28.603+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:16:28.603+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:16:31.070+0900] {processor.py:925} INFO - DAG(s) 'DAG_Data' retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:16:31.074+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:16:31.074+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-24T09:16:31.086+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:16:31.086+0900] {dag.py:4180} INFO - Setting next_dagrun for DAG_Data to 2025-01-23 16:00:00+00:00, run_after=2025-01-24 16:00:00+00:00
+[2025-01-24T09:16:31.099+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py took 2.508 seconds
+[2025-01-24T09:17:48.146+0900] {processor.py:186} INFO - Started process (PID=15273) to work on /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:17:48.153+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py for tasks to queue
+[2025-01-24T09:17:48.155+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:17:48.154+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:17:50.651+0900] {processor.py:925} INFO - DAG(s) 'DAG_Data' retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:17:50.708+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:17:50.707+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-24T09:17:50.719+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:17:50.719+0900] {dag.py:4180} INFO - Setting next_dagrun for DAG_Data to 2025-01-23 16:00:00+00:00, run_after=2025-01-24 16:00:00+00:00
+[2025-01-24T09:17:50.733+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py took 2.591 seconds
+[2025-01-24T09:19:03.970+0900] {processor.py:186} INFO - Started process (PID=15485) to work on /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:19:03.977+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py for tasks to queue
+[2025-01-24T09:19:03.978+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:19:03.978+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:19:06.664+0900] {processor.py:925} INFO - DAG(s) 'DAG_Data' retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:19:06.669+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:19:06.669+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-24T09:19:06.683+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:19:06.682+0900] {dag.py:4180} INFO - Setting next_dagrun for DAG_Data to 2025-01-23 16:00:00+00:00, run_after=2025-01-24 16:00:00+00:00
+[2025-01-24T09:19:06.697+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py took 2.731 seconds
+[2025-01-24T09:20:20.565+0900] {processor.py:186} INFO - Started process (PID=15703) to work on /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:20:20.572+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py for tasks to queue
+[2025-01-24T09:20:20.573+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:20:20.573+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:20:23.074+0900] {processor.py:925} INFO - DAG(s) 'DAG_Data' retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:20:23.130+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:20:23.130+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-24T09:20:23.140+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:20:23.140+0900] {dag.py:4180} INFO - Setting next_dagrun for DAG_Data to 2025-01-23 16:00:00+00:00, run_after=2025-01-24 16:00:00+00:00
+[2025-01-24T09:20:23.155+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py took 2.594 seconds
+[2025-01-24T09:21:34.344+0900] {processor.py:186} INFO - Started process (PID=15915) to work on /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:21:34.351+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py for tasks to queue
+[2025-01-24T09:21:34.352+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:21:34.352+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:21:36.789+0900] {processor.py:925} INFO - DAG(s) 'DAG_Data' retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:21:36.794+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:21:36.794+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-24T09:21:36.809+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:21:36.809+0900] {dag.py:4180} INFO - Setting next_dagrun for DAG_Data to 2025-01-23 16:00:00+00:00, run_after=2025-01-24 16:00:00+00:00
+[2025-01-24T09:21:36.824+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py took 2.484 seconds
+[2025-01-24T09:22:53.505+0900] {processor.py:186} INFO - Started process (PID=16132) to work on /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:22:53.506+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py for tasks to queue
+[2025-01-24T09:22:53.507+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:22:53.507+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:22:55.867+0900] {processor.py:925} INFO - DAG(s) 'DAG_Data' retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:22:55.929+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:22:55.928+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-24T09:22:55.940+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:22:55.939+0900] {dag.py:4180} INFO - Setting next_dagrun for DAG_Data to 2025-01-23 16:00:00+00:00, run_after=2025-01-24 16:00:00+00:00
+[2025-01-24T09:22:55.955+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py took 2.454 seconds
+[2025-01-24T09:24:12.680+0900] {processor.py:186} INFO - Started process (PID=16355) to work on /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:24:12.688+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py for tasks to queue
+[2025-01-24T09:24:12.689+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:24:12.688+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:24:15.203+0900] {processor.py:925} INFO - DAG(s) 'DAG_Data' retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:24:15.208+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:24:15.207+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-24T09:24:15.220+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:24:15.220+0900] {dag.py:4180} INFO - Setting next_dagrun for DAG_Data to 2025-01-23 16:00:00+00:00, run_after=2025-01-24 16:00:00+00:00
+[2025-01-24T09:24:15.233+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py took 2.557 seconds
+[2025-01-24T09:25:28.044+0900] {processor.py:186} INFO - Started process (PID=16572) to work on /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:25:28.044+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py for tasks to queue
+[2025-01-24T09:25:28.045+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:25:28.045+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:25:30.669+0900] {processor.py:925} INFO - DAG(s) 'DAG_Data' retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:25:30.731+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:25:30.731+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-24T09:25:30.744+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:25:30.744+0900] {dag.py:4180} INFO - Setting next_dagrun for DAG_Data to 2025-01-23 16:00:00+00:00, run_after=2025-01-24 16:00:00+00:00
+[2025-01-24T09:25:30.759+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py took 2.720 seconds
+[2025-01-24T09:26:42.709+0900] {processor.py:186} INFO - Started process (PID=16784) to work on /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:26:42.717+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py for tasks to queue
+[2025-01-24T09:26:42.718+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:26:42.717+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:26:45.199+0900] {processor.py:925} INFO - DAG(s) 'DAG_Data' retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:26:45.203+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:26:45.203+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-24T09:26:45.217+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:26:45.217+0900] {dag.py:4180} INFO - Setting next_dagrun for DAG_Data to 2025-01-23 16:00:00+00:00, run_after=2025-01-24 16:00:00+00:00
+[2025-01-24T09:26:45.231+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py took 2.526 seconds
+[2025-01-24T09:27:57.296+0900] {processor.py:186} INFO - Started process (PID=17001) to work on /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:27:57.299+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py for tasks to queue
+[2025-01-24T09:27:57.300+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:27:57.300+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:27:59.800+0900] {processor.py:925} INFO - DAG(s) 'DAG_Data' retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:27:59.859+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:27:59.859+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-24T09:27:59.871+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:27:59.871+0900] {dag.py:4180} INFO - Setting next_dagrun for DAG_Data to 2025-01-23 16:00:00+00:00, run_after=2025-01-24 16:00:00+00:00
+[2025-01-24T09:27:59.887+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py took 2.595 seconds
+[2025-01-24T09:29:09.911+0900] {processor.py:186} INFO - Started process (PID=17213) to work on /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:29:09.918+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py for tasks to queue
+[2025-01-24T09:29:09.919+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:29:09.919+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:29:12.258+0900] {processor.py:925} INFO - DAG(s) 'DAG_Data' retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:29:12.262+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:29:12.262+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-24T09:29:12.274+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:29:12.274+0900] {dag.py:4180} INFO - Setting next_dagrun for DAG_Data to 2025-01-23 16:00:00+00:00, run_after=2025-01-24 16:00:00+00:00
+[2025-01-24T09:29:12.287+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py took 2.380 seconds
+[2025-01-24T09:30:28.902+0900] {processor.py:186} INFO - Started process (PID=17421) to work on /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:30:28.910+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py for tasks to queue
+[2025-01-24T09:30:28.912+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:30:28.911+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:30:31.853+0900] {processor.py:925} INFO - DAG(s) 'DAG_Data' retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:30:31.924+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:30:31.924+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-24T09:30:31.937+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:30:31.937+0900] {dag.py:4180} INFO - Setting next_dagrun for DAG_Data to 2025-01-23 16:00:00+00:00, run_after=2025-01-24 16:00:00+00:00
+[2025-01-24T09:30:31.954+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py took 3.057 seconds
+[2025-01-24T09:31:54.190+0900] {processor.py:186} INFO - Started process (PID=17644) to work on /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:31:54.198+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py for tasks to queue
+[2025-01-24T09:31:54.199+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:31:54.199+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:31:57.565+0900] {processor.py:925} INFO - DAG(s) 'DAG_Data' retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:31:57.570+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:31:57.570+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-24T09:31:57.585+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:31:57.584+0900] {dag.py:4180} INFO - Setting next_dagrun for DAG_Data to 2025-01-23 16:00:00+00:00, run_after=2025-01-24 16:00:00+00:00
+[2025-01-24T09:31:57.600+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py took 3.418 seconds
+[2025-01-24T09:33:26.424+0900] {processor.py:186} INFO - Started process (PID=17873) to work on /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:33:26.432+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py for tasks to queue
+[2025-01-24T09:33:26.433+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:33:26.433+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:33:29.345+0900] {processor.py:925} INFO - DAG(s) 'DAG_Data' retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:33:29.414+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:33:29.414+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-24T09:33:29.427+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:33:29.427+0900] {dag.py:4180} INFO - Setting next_dagrun for DAG_Data to 2025-01-23 16:00:00+00:00, run_after=2025-01-24 16:00:00+00:00
+[2025-01-24T09:33:29.445+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py took 3.029 seconds
+[2025-01-24T09:34:52.934+0900] {processor.py:186} INFO - Started process (PID=18096) to work on /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:34:52.936+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py for tasks to queue
+[2025-01-24T09:34:52.937+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:34:52.937+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:34:55.898+0900] {processor.py:925} INFO - DAG(s) 'DAG_Data' retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:34:55.903+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:34:55.902+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-24T09:34:55.924+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:34:55.924+0900] {dag.py:4180} INFO - Setting next_dagrun for DAG_Data to 2025-01-23 16:00:00+00:00, run_after=2025-01-24 16:00:00+00:00
+[2025-01-24T09:34:55.942+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py took 3.014 seconds
+[2025-01-24T09:36:24.220+0900] {processor.py:186} INFO - Started process (PID=18315) to work on /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:36:24.222+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py for tasks to queue
+[2025-01-24T09:36:24.223+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:36:24.222+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:36:27.119+0900] {processor.py:925} INFO - DAG(s) 'DAG_Data' retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:36:27.194+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:36:27.194+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-24T09:36:27.208+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:36:27.208+0900] {dag.py:4180} INFO - Setting next_dagrun for DAG_Data to 2025-01-23 16:00:00+00:00, run_after=2025-01-24 16:00:00+00:00
+[2025-01-24T09:36:27.228+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py took 3.013 seconds
+[2025-01-24T09:37:49.157+0900] {processor.py:186} INFO - Started process (PID=18530) to work on /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:37:49.164+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py for tasks to queue
+[2025-01-24T09:37:49.166+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:37:49.166+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:37:52.015+0900] {processor.py:925} INFO - DAG(s) 'DAG_Data' retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:37:52.021+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:37:52.020+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-24T09:37:52.040+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:37:52.039+0900] {dag.py:4180} INFO - Setting next_dagrun for DAG_Data to 2025-01-23 16:00:00+00:00, run_after=2025-01-24 16:00:00+00:00
+[2025-01-24T09:37:52.055+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py took 2.908 seconds
+[2025-01-24T09:39:16.011+0900] {processor.py:186} INFO - Started process (PID=18739) to work on /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:39:16.019+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py for tasks to queue
+[2025-01-24T09:39:16.020+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:39:16.019+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:39:18.895+0900] {processor.py:925} INFO - DAG(s) 'DAG_Data' retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:39:18.964+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:39:18.964+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-24T09:39:18.977+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:39:18.977+0900] {dag.py:4180} INFO - Setting next_dagrun for DAG_Data to 2025-01-23 16:00:00+00:00, run_after=2025-01-24 16:00:00+00:00
+[2025-01-24T09:39:18.994+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py took 2.988 seconds
+[2025-01-24T09:40:43.604+0900] {processor.py:186} INFO - Started process (PID=18955) to work on /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:40:43.611+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py for tasks to queue
+[2025-01-24T09:40:43.613+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:40:43.612+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:40:46.324+0900] {processor.py:925} INFO - DAG(s) 'DAG_Data' retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:40:46.329+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:40:46.329+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-24T09:40:46.345+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:40:46.345+0900] {dag.py:4180} INFO - Setting next_dagrun for DAG_Data to 2025-01-23 16:00:00+00:00, run_after=2025-01-24 16:00:00+00:00
+[2025-01-24T09:40:46.361+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py took 2.764 seconds
+[2025-01-24T09:42:14.769+0900] {processor.py:186} INFO - Started process (PID=19174) to work on /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:42:14.777+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py for tasks to queue
+[2025-01-24T09:42:14.779+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:42:14.778+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:42:17.646+0900] {processor.py:925} INFO - DAG(s) 'DAG_Data' retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:42:17.717+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:42:17.716+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-24T09:42:17.733+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:42:17.732+0900] {dag.py:4180} INFO - Setting next_dagrun for DAG_Data to 2025-01-23 16:00:00+00:00, run_after=2025-01-24 16:00:00+00:00
+[2025-01-24T09:42:17.751+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py took 2.988 seconds
+[2025-01-24T09:43:38.930+0900] {processor.py:186} INFO - Started process (PID=19389) to work on /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:43:38.938+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py for tasks to queue
+[2025-01-24T09:43:38.939+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:43:38.939+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:43:41.850+0900] {processor.py:925} INFO - DAG(s) 'DAG_Data' retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:43:41.855+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:43:41.854+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-24T09:43:41.876+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:43:41.876+0900] {dag.py:4180} INFO - Setting next_dagrun for DAG_Data to 2025-01-23 16:00:00+00:00, run_after=2025-01-24 16:00:00+00:00
+[2025-01-24T09:43:41.892+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py took 2.969 seconds
+[2025-01-24T09:45:03.703+0900] {processor.py:186} INFO - Started process (PID=19598) to work on /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:45:03.710+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py for tasks to queue
+[2025-01-24T09:45:03.712+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:45:03.711+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:45:06.593+0900] {processor.py:925} INFO - DAG(s) 'DAG_Data' retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:45:06.660+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:45:06.659+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-24T09:45:06.831+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:45:06.830+0900] {dag.py:4180} INFO - Setting next_dagrun for DAG_Data to 2025-01-23 16:00:00+00:00, run_after=2025-01-24 16:00:00+00:00
+[2025-01-24T09:45:06.851+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py took 3.155 seconds
+[2025-01-24T09:46:27.903+0900] {processor.py:186} INFO - Started process (PID=19813) to work on /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:46:27.911+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py for tasks to queue
+[2025-01-24T09:46:27.913+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:46:27.912+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:46:30.763+0900] {processor.py:925} INFO - DAG(s) 'DAG_Data' retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:46:30.770+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:46:30.770+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-24T09:46:30.791+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:46:30.791+0900] {dag.py:4180} INFO - Setting next_dagrun for DAG_Data to 2025-01-23 16:00:00+00:00, run_after=2025-01-24 16:00:00+00:00
+[2025-01-24T09:46:30.811+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py took 2.913 seconds
+[2025-01-24T09:47:54.012+0900] {processor.py:186} INFO - Started process (PID=20022) to work on /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:47:54.019+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py for tasks to queue
+[2025-01-24T09:47:54.021+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:47:54.020+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:47:56.888+0900] {processor.py:925} INFO - DAG(s) 'DAG_Data' retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:47:56.976+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:47:56.976+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-24T09:47:57.158+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:47:57.158+0900] {dag.py:4180} INFO - Setting next_dagrun for DAG_Data to 2025-01-23 16:00:00+00:00, run_after=2025-01-24 16:00:00+00:00
+[2025-01-24T09:47:57.179+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py took 3.173 seconds
+[2025-01-24T09:49:20.554+0900] {processor.py:186} INFO - Started process (PID=20237) to work on /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:49:20.561+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py for tasks to queue
+[2025-01-24T09:49:20.562+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:49:20.562+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:49:23.473+0900] {processor.py:925} INFO - DAG(s) 'DAG_Data' retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:49:23.477+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:49:23.477+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-24T09:49:23.494+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:49:23.494+0900] {dag.py:4180} INFO - Setting next_dagrun for DAG_Data to 2025-01-23 16:00:00+00:00, run_after=2025-01-24 16:00:00+00:00
+[2025-01-24T09:49:23.512+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py took 2.970 seconds
+[2025-01-24T09:50:52.072+0900] {processor.py:186} INFO - Started process (PID=20457) to work on /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:50:52.074+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py for tasks to queue
+[2025-01-24T09:50:52.076+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:50:52.075+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:50:54.952+0900] {processor.py:925} INFO - DAG(s) 'DAG_Data' retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:50:55.017+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:50:55.017+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-24T09:50:55.189+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:50:55.189+0900] {dag.py:4180} INFO - Setting next_dagrun for DAG_Data to 2025-01-23 16:00:00+00:00, run_after=2025-01-24 16:00:00+00:00
+[2025-01-24T09:50:55.210+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py took 3.147 seconds
+[2025-01-24T09:52:22.807+0900] {processor.py:186} INFO - Started process (PID=20672) to work on /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:52:22.815+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py for tasks to queue
+[2025-01-24T09:52:22.817+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:52:22.816+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:52:25.949+0900] {processor.py:925} INFO - DAG(s) 'DAG_Data' retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:52:25.953+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:52:25.953+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-24T09:52:25.967+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:52:25.967+0900] {dag.py:4180} INFO - Setting next_dagrun for DAG_Data to 2025-01-23 16:00:00+00:00, run_after=2025-01-24 16:00:00+00:00
+[2025-01-24T09:52:25.987+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py took 3.187 seconds
+[2025-01-24T09:53:49.702+0900] {processor.py:186} INFO - Started process (PID=20881) to work on /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:53:49.703+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py for tasks to queue
+[2025-01-24T09:53:49.704+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:53:49.704+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:53:52.685+0900] {processor.py:925} INFO - DAG(s) 'DAG_Data' retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:53:52.962+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:53:52.961+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-24T09:53:52.976+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:53:52.976+0900] {dag.py:4180} INFO - Setting next_dagrun for DAG_Data to 2025-01-23 16:00:00+00:00, run_after=2025-01-24 16:00:00+00:00
+[2025-01-24T09:53:53.002+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py took 3.306 seconds
+[2025-01-24T09:55:17.414+0900] {processor.py:186} INFO - Started process (PID=21096) to work on /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:55:17.422+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py for tasks to queue
+[2025-01-24T09:55:17.423+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:55:17.423+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:55:20.309+0900] {processor.py:925} INFO - DAG(s) 'DAG_Data' retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:55:20.314+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:55:20.314+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-24T09:55:20.330+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:55:20.329+0900] {dag.py:4180} INFO - Setting next_dagrun for DAG_Data to 2025-01-23 16:00:00+00:00, run_after=2025-01-24 16:00:00+00:00
+[2025-01-24T09:55:20.349+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py took 2.945 seconds
+[2025-01-24T09:56:49.825+0900] {processor.py:186} INFO - Started process (PID=21315) to work on /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:56:49.832+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py for tasks to queue
+[2025-01-24T09:56:49.834+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:56:49.833+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:56:52.844+0900] {processor.py:925} INFO - DAG(s) 'DAG_Data' retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:56:52.910+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:56:52.910+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-24T09:56:52.922+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:56:52.922+0900] {dag.py:4180} INFO - Setting next_dagrun for DAG_Data to 2025-01-23 16:00:00+00:00, run_after=2025-01-24 16:00:00+00:00
+[2025-01-24T09:56:52.939+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py took 3.120 seconds
+[2025-01-24T09:58:18.328+0900] {processor.py:186} INFO - Started process (PID=21530) to work on /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:58:18.335+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py for tasks to queue
+[2025-01-24T09:58:18.336+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:58:18.336+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:58:21.345+0900] {processor.py:925} INFO - DAG(s) 'DAG_Data' retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:58:21.350+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:58:21.350+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-24T09:58:21.365+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:58:21.365+0900] {dag.py:4180} INFO - Setting next_dagrun for DAG_Data to 2025-01-23 16:00:00+00:00, run_after=2025-01-24 16:00:00+00:00
+[2025-01-24T09:58:21.385+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py took 3.065 seconds
+[2025-01-24T09:59:50.672+0900] {processor.py:186} INFO - Started process (PID=21749) to work on /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:59:50.679+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py for tasks to queue
+[2025-01-24T09:59:50.681+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:59:50.680+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:59:53.624+0900] {processor.py:925} INFO - DAG(s) 'DAG_Data' retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T09:59:53.693+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:59:53.692+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-24T09:59:53.705+0900] {logging_mixin.py:190} INFO - [2025-01-24T09:59:53.705+0900] {dag.py:4180} INFO - Setting next_dagrun for DAG_Data to 2025-01-23 16:00:00+00:00, run_after=2025-01-24 16:00:00+00:00
+[2025-01-24T09:59:53.723+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py took 3.058 seconds
+[2025-01-24T10:01:16.736+0900] {processor.py:186} INFO - Started process (PID=21965) to work on /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:01:16.744+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py for tasks to queue
+[2025-01-24T10:01:16.745+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:01:16.745+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:01:19.711+0900] {processor.py:925} INFO - DAG(s) 'DAG_Data' retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:01:19.716+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:01:19.715+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-24T10:01:19.731+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:01:19.731+0900] {dag.py:4180} INFO - Setting next_dagrun for DAG_Data to 2025-01-23 16:00:00+00:00, run_after=2025-01-24 16:00:00+00:00
+[2025-01-24T10:01:19.747+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py took 3.017 seconds
+[2025-01-24T10:02:46.009+0900] {processor.py:186} INFO - Started process (PID=22174) to work on /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:02:46.011+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py for tasks to queue
+[2025-01-24T10:02:46.012+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:02:46.011+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:02:48.981+0900] {processor.py:925} INFO - DAG(s) 'DAG_Data' retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:02:49.048+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:02:49.048+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-24T10:02:49.061+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:02:49.061+0900] {dag.py:4180} INFO - Setting next_dagrun for DAG_Data to 2025-01-23 16:00:00+00:00, run_after=2025-01-24 16:00:00+00:00
+[2025-01-24T10:02:49.077+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py took 3.074 seconds
+[2025-01-24T10:04:17.709+0900] {processor.py:186} INFO - Started process (PID=22399) to work on /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:04:17.711+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py for tasks to queue
+[2025-01-24T10:04:17.712+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:04:17.712+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:04:20.679+0900] {processor.py:925} INFO - DAG(s) 'DAG_Data' retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:04:20.685+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:04:20.685+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-24T10:04:20.703+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:04:20.703+0900] {dag.py:4180} INFO - Setting next_dagrun for DAG_Data to 2025-01-23 16:00:00+00:00, run_after=2025-01-24 16:00:00+00:00
+[2025-01-24T10:04:20.721+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py took 3.019 seconds
+[2025-01-24T10:05:46.434+0900] {processor.py:186} INFO - Started process (PID=22608) to work on /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:05:46.435+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py for tasks to queue
+[2025-01-24T10:05:46.437+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:05:46.436+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:05:49.519+0900] {processor.py:925} INFO - DAG(s) 'DAG_Data' retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:05:49.600+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:05:49.599+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-24T10:05:49.613+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:05:49.613+0900] {dag.py:4180} INFO - Setting next_dagrun for DAG_Data to 2025-01-23 16:00:00+00:00, run_after=2025-01-24 16:00:00+00:00
+[2025-01-24T10:05:49.632+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py took 3.206 seconds
+[2025-01-24T10:07:13.092+0900] {processor.py:186} INFO - Started process (PID=22823) to work on /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:07:13.100+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py for tasks to queue
+[2025-01-24T10:07:13.101+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:07:13.101+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:07:16.037+0900] {processor.py:925} INFO - DAG(s) 'DAG_Data' retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:07:16.042+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:07:16.041+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-24T10:07:16.056+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:07:16.056+0900] {dag.py:4180} INFO - Setting next_dagrun for DAG_Data to 2025-01-23 16:00:00+00:00, run_after=2025-01-24 16:00:00+00:00
+[2025-01-24T10:07:16.070+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py took 2.985 seconds
+[2025-01-24T10:08:46.098+0900] {processor.py:186} INFO - Started process (PID=23042) to work on /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:08:46.106+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py for tasks to queue
+[2025-01-24T10:08:46.107+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:08:46.107+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:08:49.055+0900] {processor.py:925} INFO - DAG(s) 'DAG_Data' retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:08:49.135+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:08:49.134+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-24T10:08:49.149+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:08:49.149+0900] {dag.py:4180} INFO - Setting next_dagrun for DAG_Data to 2025-01-23 16:00:00+00:00, run_after=2025-01-24 16:00:00+00:00
+[2025-01-24T10:08:49.169+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py took 3.077 seconds
+[2025-01-24T10:10:15.153+0900] {processor.py:186} INFO - Started process (PID=23257) to work on /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:10:15.161+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py for tasks to queue
+[2025-01-24T10:10:15.162+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:10:15.162+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:10:18.380+0900] {processor.py:925} INFO - DAG(s) 'DAG_Data' retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:10:18.389+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:10:18.389+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-24T10:10:18.403+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:10:18.403+0900] {dag.py:4180} INFO - Setting next_dagrun for DAG_Data to 2025-01-23 16:00:00+00:00, run_after=2025-01-24 16:00:00+00:00
+[2025-01-24T10:10:18.418+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py took 3.271 seconds
+[2025-01-24T10:11:47.467+0900] {processor.py:186} INFO - Started process (PID=23478) to work on /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:11:47.474+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py for tasks to queue
+[2025-01-24T10:11:47.475+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:11:47.475+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:11:50.600+0900] {processor.py:925} INFO - DAG(s) 'DAG_Data' retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:11:50.680+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:11:50.680+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-24T10:11:50.693+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:11:50.693+0900] {dag.py:4180} INFO - Setting next_dagrun for DAG_Data to 2025-01-23 16:00:00+00:00, run_after=2025-01-24 16:00:00+00:00
+[2025-01-24T10:11:50.713+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py took 3.254 seconds
+[2025-01-24T10:13:18.121+0900] {processor.py:186} INFO - Started process (PID=23693) to work on /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:13:18.123+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py for tasks to queue
+[2025-01-24T10:13:18.124+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:13:18.123+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:13:21.075+0900] {processor.py:925} INFO - DAG(s) 'DAG_Data' retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:13:21.081+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:13:21.080+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-24T10:13:21.101+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:13:21.101+0900] {dag.py:4180} INFO - Setting next_dagrun for DAG_Data to 2025-01-23 16:00:00+00:00, run_after=2025-01-24 16:00:00+00:00
+[2025-01-24T10:13:21.120+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py took 3.005 seconds
+[2025-01-24T10:14:48.609+0900] {processor.py:186} INFO - Started process (PID=23912) to work on /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:14:48.616+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py for tasks to queue
+[2025-01-24T10:14:48.618+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:14:48.618+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:14:51.628+0900] {processor.py:925} INFO - DAG(s) 'DAG_Data' retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:14:51.698+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:14:51.698+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-24T10:14:51.712+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:14:51.711+0900] {dag.py:4180} INFO - Setting next_dagrun for DAG_Data to 2025-01-23 16:00:00+00:00, run_after=2025-01-24 16:00:00+00:00
+[2025-01-24T10:14:51.728+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py took 3.126 seconds
+[2025-01-24T10:16:15.106+0900] {processor.py:186} INFO - Started process (PID=24127) to work on /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:16:15.113+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py for tasks to queue
+[2025-01-24T10:16:15.115+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:16:15.114+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:16:17.897+0900] {processor.py:925} INFO - DAG(s) 'DAG_Data' retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:16:17.904+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:16:17.904+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-24T10:16:17.920+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:16:17.920+0900] {dag.py:4180} INFO - Setting next_dagrun for DAG_Data to 2025-01-23 16:00:00+00:00, run_after=2025-01-24 16:00:00+00:00
+[2025-01-24T10:16:17.938+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py took 2.837 seconds
+[2025-01-24T10:17:46.241+0900] {processor.py:186} INFO - Started process (PID=24346) to work on /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:17:46.249+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py for tasks to queue
+[2025-01-24T10:17:46.251+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:17:46.251+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:17:49.179+0900] {processor.py:925} INFO - DAG(s) 'DAG_Data' retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:17:49.268+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:17:49.267+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-24T10:17:49.282+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:17:49.282+0900] {dag.py:4180} INFO - Setting next_dagrun for DAG_Data to 2025-01-23 16:00:00+00:00, run_after=2025-01-24 16:00:00+00:00
+[2025-01-24T10:17:49.302+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py took 3.071 seconds
+[2025-01-24T10:19:14.598+0900] {processor.py:186} INFO - Started process (PID=24561) to work on /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:19:14.605+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py for tasks to queue
+[2025-01-24T10:19:14.607+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:19:14.607+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:19:17.517+0900] {processor.py:925} INFO - DAG(s) 'DAG_Data' retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:19:17.524+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:19:17.523+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-24T10:19:17.544+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:19:17.543+0900] {dag.py:4180} INFO - Setting next_dagrun for DAG_Data to 2025-01-23 16:00:00+00:00, run_after=2025-01-24 16:00:00+00:00
+[2025-01-24T10:19:17.561+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py took 2.969 seconds
+[2025-01-24T10:20:45.529+0900] {processor.py:186} INFO - Started process (PID=24781) to work on /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:20:45.537+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py for tasks to queue
+[2025-01-24T10:20:45.539+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:20:45.538+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:20:48.529+0900] {processor.py:925} INFO - DAG(s) 'DAG_Data' retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:20:48.603+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:20:48.602+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-24T10:20:48.617+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:20:48.617+0900] {dag.py:4180} INFO - Setting next_dagrun for DAG_Data to 2025-01-23 16:00:00+00:00, run_after=2025-01-24 16:00:00+00:00
+[2025-01-24T10:20:48.634+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py took 3.110 seconds
+[2025-01-24T10:22:11.992+0900] {processor.py:186} INFO - Started process (PID=24996) to work on /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:22:11.993+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py for tasks to queue
+[2025-01-24T10:22:11.995+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:22:11.994+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:22:15.272+0900] {processor.py:925} INFO - DAG(s) 'DAG_Data' retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:22:15.277+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:22:15.277+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-24T10:22:15.292+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:22:15.292+0900] {dag.py:4180} INFO - Setting next_dagrun for DAG_Data to 2025-01-23 16:00:00+00:00, run_after=2025-01-24 16:00:00+00:00
+[2025-01-24T10:22:15.309+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py took 3.322 seconds
+[2025-01-24T10:23:39.644+0900] {processor.py:186} INFO - Started process (PID=25205) to work on /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:23:39.652+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py for tasks to queue
+[2025-01-24T10:23:39.654+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:23:39.653+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:23:42.483+0900] {processor.py:925} INFO - DAG(s) 'DAG_Data' retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:23:42.561+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:23:42.561+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-24T10:23:42.575+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:23:42.574+0900] {dag.py:4180} INFO - Setting next_dagrun for DAG_Data to 2025-01-23 16:00:00+00:00, run_after=2025-01-24 16:00:00+00:00
+[2025-01-24T10:23:42.592+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py took 2.954 seconds
+[2025-01-24T10:25:07.816+0900] {processor.py:186} INFO - Started process (PID=25420) to work on /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:25:07.824+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py for tasks to queue
+[2025-01-24T10:25:07.825+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:25:07.825+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:25:10.812+0900] {processor.py:925} INFO - DAG(s) 'DAG_Data' retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:25:10.818+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:25:10.818+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-24T10:25:10.834+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:25:10.834+0900] {dag.py:4180} INFO - Setting next_dagrun for DAG_Data to 2025-01-23 16:00:00+00:00, run_after=2025-01-24 16:00:00+00:00
+[2025-01-24T10:25:10.848+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py took 3.037 seconds
+[2025-01-24T10:26:40.535+0900] {processor.py:186} INFO - Started process (PID=25630) to work on /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:26:40.543+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py for tasks to queue
+[2025-01-24T10:26:40.544+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:26:40.544+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:26:43.453+0900] {processor.py:925} INFO - DAG(s) 'DAG_Data' retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:26:43.524+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:26:43.523+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-24T10:26:43.536+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:26:43.536+0900] {dag.py:4180} INFO - Setting next_dagrun for DAG_Data to 2025-01-23 16:00:00+00:00, run_after=2025-01-24 16:00:00+00:00
+[2025-01-24T10:26:43.551+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py took 3.022 seconds
+[2025-01-24T10:28:06.100+0900] {processor.py:186} INFO - Started process (PID=25863) to work on /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:28:06.108+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py for tasks to queue
+[2025-01-24T10:28:06.109+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:28:06.108+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:28:08.697+0900] {processor.py:925} INFO - DAG(s) 'DAG_Data' retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:28:08.703+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:28:08.702+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-24T10:28:08.717+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:28:08.717+0900] {dag.py:4180} INFO - Setting next_dagrun for DAG_Data to 2025-01-23 16:00:00+00:00, run_after=2025-01-24 16:00:00+00:00
+[2025-01-24T10:28:08.730+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py took 2.635 seconds
+[2025-01-24T10:29:25.242+0900] {processor.py:186} INFO - Started process (PID=26080) to work on /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:29:25.249+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py for tasks to queue
+[2025-01-24T10:29:25.250+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:29:25.250+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:29:27.706+0900] {processor.py:925} INFO - DAG(s) 'DAG_Data' retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:29:27.770+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:29:27.770+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-24T10:29:27.783+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:29:27.783+0900] {dag.py:4180} INFO - Setting next_dagrun for DAG_Data to 2025-01-23 16:00:00+00:00, run_after=2025-01-24 16:00:00+00:00
+[2025-01-24T10:29:27.798+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py took 2.560 seconds
+[2025-01-24T10:30:40.986+0900] {processor.py:186} INFO - Started process (PID=26286) to work on /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:30:40.993+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py for tasks to queue
+[2025-01-24T10:30:40.994+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:30:40.994+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:30:43.495+0900] {processor.py:925} INFO - DAG(s) 'DAG_Data' retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:30:43.499+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:30:43.499+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-24T10:30:43.512+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:30:43.511+0900] {dag.py:4180} INFO - Setting next_dagrun for DAG_Data to 2025-01-23 16:00:00+00:00, run_after=2025-01-24 16:00:00+00:00
+[2025-01-24T10:30:43.526+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py took 2.545 seconds
+[2025-01-24T10:31:58.703+0900] {processor.py:186} INFO - Started process (PID=26496) to work on /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:31:58.710+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py for tasks to queue
+[2025-01-24T10:31:58.711+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:31:58.711+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:32:01.503+0900] {processor.py:925} INFO - DAG(s) 'DAG_Data' retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:32:01.568+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:32:01.568+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-24T10:32:01.579+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:32:01.579+0900] {dag.py:4180} INFO - Setting next_dagrun for DAG_Data to 2025-01-23 16:00:00+00:00, run_after=2025-01-24 16:00:00+00:00
+[2025-01-24T10:32:01.594+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py took 2.895 seconds
+[2025-01-24T10:33:15.591+0900] {processor.py:186} INFO - Started process (PID=26701) to work on /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:33:15.598+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py for tasks to queue
+[2025-01-24T10:33:15.599+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:33:15.599+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:33:18.108+0900] {processor.py:925} INFO - DAG(s) 'DAG_Data' retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:33:18.112+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:33:18.112+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-24T10:33:18.123+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:33:18.123+0900] {dag.py:4180} INFO - Setting next_dagrun for DAG_Data to 2025-01-23 16:00:00+00:00, run_after=2025-01-24 16:00:00+00:00
+[2025-01-24T10:33:18.137+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py took 2.551 seconds
+[2025-01-24T10:34:31.436+0900] {processor.py:186} INFO - Started process (PID=26910) to work on /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:34:31.444+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py for tasks to queue
+[2025-01-24T10:34:31.445+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:34:31.444+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:34:33.917+0900] {processor.py:925} INFO - DAG(s) 'DAG_Data' retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:34:33.987+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:34:33.986+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-24T10:34:34.001+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:34:34.001+0900] {dag.py:4180} INFO - Setting next_dagrun for DAG_Data to 2025-01-23 16:00:00+00:00, run_after=2025-01-24 16:00:00+00:00
+[2025-01-24T10:34:34.017+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py took 2.584 seconds
+[2025-01-24T10:35:45.810+0900] {processor.py:186} INFO - Started process (PID=27131) to work on /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:35:45.811+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py for tasks to queue
+[2025-01-24T10:35:45.812+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:35:45.811+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:35:48.222+0900] {processor.py:925} INFO - DAG(s) 'DAG_Data' retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:35:48.225+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:35:48.225+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-24T10:35:48.237+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:35:48.237+0900] {dag.py:4180} INFO - Setting next_dagrun for DAG_Data to 2025-01-23 16:00:00+00:00, run_after=2025-01-24 16:00:00+00:00
+[2025-01-24T10:35:48.250+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py took 2.445 seconds
+[2025-01-24T10:37:00.800+0900] {processor.py:186} INFO - Started process (PID=27358) to work on /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:37:00.801+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py for tasks to queue
+[2025-01-24T10:37:00.802+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:37:00.802+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:37:03.307+0900] {processor.py:925} INFO - DAG(s) 'DAG_Data' retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:37:03.368+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:37:03.367+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-24T10:37:03.378+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:37:03.378+0900] {dag.py:4180} INFO - Setting next_dagrun for DAG_Data to 2025-01-23 16:00:00+00:00, run_after=2025-01-24 16:00:00+00:00
+[2025-01-24T10:37:03.392+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py took 2.596 seconds
+[2025-01-24T10:38:23.683+0900] {processor.py:186} INFO - Started process (PID=27653) to work on /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:38:23.691+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py for tasks to queue
+[2025-01-24T10:38:23.691+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:38:23.691+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:38:26.021+0900] {processor.py:925} INFO - DAG(s) 'DAG_Data' retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:38:26.025+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:38:26.025+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-24T10:38:26.036+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:38:26.036+0900] {dag.py:4180} INFO - Setting next_dagrun for DAG_Data to 2025-01-23 16:00:00+00:00, run_after=2025-01-24 16:00:00+00:00
+[2025-01-24T10:38:26.049+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py took 2.370 seconds
+[2025-01-24T10:39:47.081+0900] {processor.py:186} INFO - Started process (PID=27908) to work on /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:39:47.083+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py for tasks to queue
+[2025-01-24T10:39:47.084+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:39:47.083+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:39:49.876+0900] {processor.py:925} INFO - DAG(s) 'DAG_Data' retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:39:49.955+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:39:49.954+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-24T10:39:49.971+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:39:49.971+0900] {dag.py:4180} INFO - Setting next_dagrun for DAG_Data to 2025-01-23 16:00:00+00:00, run_after=2025-01-24 16:00:00+00:00
+[2025-01-24T10:39:49.988+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py took 2.912 seconds
+[2025-01-24T10:41:07.014+0900] {processor.py:186} INFO - Started process (PID=28173) to work on /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:41:07.021+0900] {processor.py:914} INFO - Processing file /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py for tasks to queue
+[2025-01-24T10:41:07.022+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:41:07.022+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:41:10.471+0900] {processor.py:925} INFO - DAG(s) 'DAG_Data' retrieved from /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py
+[2025-01-24T10:41:10.478+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:41:10.477+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-24T10:41:10.498+0900] {logging_mixin.py:190} INFO - [2025-01-24T10:41:10.498+0900] {dag.py:4180} INFO - Setting next_dagrun for DAG_Data to 2025-01-23 16:00:00+00:00, run_after=2025-01-24 16:00:00+00:00
+[2025-01-24T10:41:10.514+0900] {processor.py:208} INFO - Processing /home/harry/airflow/dags/.ipynb_checkpoints/DAG_Data-checkpoint.py took 3.505 seconds

@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1737657437732
+current_stage: None
+description: null
+last_updated_timestamp: 1737657437732
+name: best_model
+run_id: null
+run_link: null
+source: runs:/758900fe6d674a859bf112c544d90c45/gru_with_attention_model_20250123.pth
+status: READY
+status_message: null
+storage_location: runs:/758900fe6d674a859bf112c544d90c45/gru_with_attention_model_20250123.pth
+user_id: null
+version: 1

@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1737657552462
+current_stage: None
+description: null
+last_updated_timestamp: 1737657552462
+name: recent_model
+run_id: 28d76ff3b00042f18c591c006f7eb2f8
+run_link: null
+source: file:///home/harry/airflow/dags/outputs/mlruns/187697973187583767/28d76ff3b00042f18c591c006f7eb2f8/artifacts/gru_with_attention_model_20250124.pth
+status: READY
+status_message: null
+storage_location: file:///home/harry/airflow/dags/outputs/mlruns/187697973187583767/28d76ff3b00042f18c591c006f7eb2f8/artifacts/gru_with_attention_model_20250124.pth
+user_id: null
+version: 1

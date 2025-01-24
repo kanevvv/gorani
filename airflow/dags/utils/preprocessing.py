@@ -138,31 +138,14 @@ def run_local_dataload_n_preprocessing_n_save(coin_name='KRW-BTC', parquet_name=
         with open("data/y_test_dates.pkl", "wb") as f:
             pickle.dump(y_test_dates, f) 
 
-        # MLflow Experiment 설정
-        mlflow.set_experiment("coin_experiment")
         
-        #MLFlow 서버에 scaler 저장
-        with mlflow.start_run(run_name="Save Scaler and Model"):
-            with open("data/mm_X.pkl", "wb") as f:
-                pickle.dump(mm_X, f)
-            with open("data/mm_y.pkl", "wb") as f:
-                pickle.dump(mm_y, f)
+        #M scaler 저장
+        with open("data/mm_X.pkl", "wb") as f:
+            pickle.dump(mm_X, f)
+        with open("data/mm_y.pkl", "wb") as f:
+            pickle.dump(mm_y, f)
     
-            mlflow.log_artifact("data/mm_X.pkl")
-            mlflow.log_artifact("data/mm_y.pkl")
-    
-            # 실행 중인 run의 정보 가져오기
-            active_run = mlflow.active_run()
-        
-            # run_id와 experiment_id 추출
-            run_id = active_run.info.run_id
-            experiment_id = active_run.info.experiment_id
 
-            #airflow xcom push
-            print("run_id :",run_id)
-            print("experiment_id :", experiment_id)
-            ti.xcom_push(key='run_id', value=run_id)
-            ti.xcom_push(key='experiment_id', value=experiment_id)
         
             
     if use_type=='inference':
@@ -179,12 +162,9 @@ def run_local_dataload_n_preprocessing_n_save(coin_name='KRW-BTC', parquet_name=
         Test = tmp[(tmp['candle_date_time_kst'] >= thr3) & (tmp['candle_date_time_kst'] <= thr4)].iloc[:, 2:]
         Test_dates = tmp[(tmp['candle_date_time_kst'] >= thr3) & (tmp['candle_date_time_kst'] <= thr4)]['candle_date_time_kst']
 
-        #Xcom에서 run_id / experiment_id 가져오기        
-        run_id = ti.xcom_pull(key='run_id')
-        experiment_id = ti.xcom_pull(key='experiment_id')
         
         # MLflow에서 Scaler 로드
-        mm_X_path = f"mlruns/{experiment_id}/{run_id}/artifacts/mm_X.pkl"
+        mm_X_path = f"data/mm_X.pkl"
         with open(mm_X_path, "rb") as f:
             mm_X = pickle.load(f)
 
@@ -208,5 +188,6 @@ def run_local_dataload_n_preprocessing_n_save(coin_name='KRW-BTC', parquet_name=
 
 
 if __name__=='__main__':
-    run_local_dataload_n_preprocessing_n_save()
+    run_local_dataload_n_preprocessing_n_save(use_type='train')
+    run_local_dataload_n_preprocessing_n_save(use_type='inference')
     
