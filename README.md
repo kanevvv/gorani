@@ -10,14 +10,15 @@
 
 ```mermaid
 graph LR;
-    DAG_Data[DAG_Data] --> DAG_Train;
+    Upbit{Upbit<br>API} --> DAG_Data;
+    DAG_Data --> DAG_Train;
     DAG_Data --> DAG_Monitoring;
-    DAG_Monitoring --> DAG_Inference;
-    DAG_Train --> DAG_Inference
+    DAG_Monitoring --> MLFlow_서버{MLFlow<br>서버};
+    DAG_Train --> MLFlow_서버{MLFlow<br>서버};
+    MLFlow_서버{MLFlow<br>서버} --> DAG_Inference;
 
-
-%%style DAG_Data fill:#f9f,stroke:#333,stroke-width:2px
-%%style DAG_Data fill:#bbf,stroke:#f00,stroke-width:3px,color:#fff
+style MLFlow_서버 fill:#ADD8E6,stroke:#00008B,color:#000000
+style Upbit fill:#00B0FF,stroke:#0061A8,color:#FFFFFF
 ```
 <br>
 
