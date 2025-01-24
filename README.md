@@ -22,7 +22,7 @@ graph LR;
 <br>
 
 
-|DAG명|대상데이터 <br>날짜| DAG 기능|
+|DAG명|대상데이터 날짜| DAG 기능|
 |------|---------|-----|
 |DAG_Data | (D-1)일 |- 비트코인 60분 캔들의 최근 1년치 데이터를 SQLite DB에 적재 <br> - Train/Inference를 위한 데이터 전처리 (데이터보간/스케일링/슬라이딩윈도우 적용)|
 |DAG_Monitoring | (D-1)일 | - (D-3)일까지의 Best Model과 (D-2)일 학습 모델 비교 <br> - 두 모델의 (D-1)일 inference 결과에 대한 RMSE 모니터링을 통해 Best Model 갱신 <br> ***실행첫날은 Monitoring 스킵**|
