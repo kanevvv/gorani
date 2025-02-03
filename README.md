@@ -27,7 +27,7 @@ style Upbit fill:#00B0FF,stroke:#0061A8,color:#FFFFFF
 |------|---------|-----|
 |DAG_Data | (D-1)일 |- 비트코인 60분 캔들의 최근 1년치 데이터를 SQLite DB에 적재 <br> - Train/Inference를 위한 데이터 전처리 (데이터보간/스케일링/슬라이딩윈도우 적용)|
 |DAG_Monitoring | (D-1)일 | - (D-3)일까지의 Best Model과 (D-2)일 학습 모델 비교 <br> - 두 모델의 (D-1)일 inference 결과에 대한 RMSE 모니터링을 통해  MLFlow 서버의 best_model 갱신 <br> ***실행첫날은 Monitoring 스킵**|
-|DAG_Train | (D-1)일 | - 최근 N개월 데이터로 GRU 모델을 학습 <br> - MLFlow 서버에 recent_model로 저장|
+|DAG_Train | (D-1)일 | - 최근 N개월 데이터로 GRU 모델 학습 <br> - MLFlow 서버에 recent_model로 저장|
 |DAG_Inference |Today (*예측)| - Best Model, Train Model 각각 1시간 단위로 오늘날짜의 "종가" 예측 <br>|
 <br>
 
